@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9120C6AE1F5859DA003362C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9120C6AD1F5859DA003362C6 /* AppDelegate.swift */; };
+		9120C6B01F5859DA003362C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9120C6AF1F5859DA003362C6 /* ViewController.swift */; };
+		9120C6B31F5859DA003362C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9120C6B11F5859DA003362C6 /* Main.storyboard */; };
+		9120C6B51F5859DA003362C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9120C6B41F5859DA003362C6 /* Assets.xcassets */; };
+		9120C6B81F5859DA003362C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9120C6B61F5859DA003362C6 /* LaunchScreen.storyboard */; };
+		9120C6C31F5859DB003362C6 /* iGEMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9120C6C21F5859DB003362C6 /* iGEMTests.swift */; };
+		9120C6CE1F5859DB003362C6 /* iGEMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9120C6CD1F5859DB003362C6 /* iGEMUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9120C6BF1F5859DB003362C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9120C6A21F5859DA003362C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9120C6A91F5859DA003362C6;
+			remoteInfo = iGEM;
+		};
+		9120C6CA1F5859DB003362C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9120C6A21F5859DA003362C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9120C6A91F5859DA003362C6;
+			remoteInfo = iGEM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9120C6AA1F5859DA003362C6 /* iGEM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iGEM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9120C6AD1F5859DA003362C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9120C6AF1F5859DA003362C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9120C6B21F5859DA003362C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9120C6B41F5859DA003362C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9120C6B71F5859DA003362C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9120C6B91F5859DA003362C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9120C6BE1F5859DB003362C6 /* iGEMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iGEMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9120C6C21F5859DB003362C6 /* iGEMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iGEMTests.swift; sourceTree = "<group>"; };
+		9120C6C41F5859DB003362C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9120C6C91F5859DB003362C6 /* iGEMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iGEMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9120C6CD1F5859DB003362C6 /* iGEMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iGEMUITests.swift; sourceTree = "<group>"; };
+		9120C6CF1F5859DB003362C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9120C6A71F5859DA003362C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9120C6BB1F5859DB003362C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9120C6C61F5859DB003362C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9120C6A11F5859DA003362C6 = {
+			isa = PBXGroup;
+			children = (
+				9120C6AC1F5859DA003362C6 /* iGEM */,
+				9120C6C11F5859DB003362C6 /* iGEMTests */,
+				9120C6CC1F5859DB003362C6 /* iGEMUITests */,
+				9120C6AB1F5859DA003362C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9120C6AB1F5859DA003362C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9120C6AA1F5859DA003362C6 /* iGEM.app */,
+				9120C6BE1F5859DB003362C6 /* iGEMTests.xctest */,
+				9120C6C91F5859DB003362C6 /* iGEMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9120C6AC1F5859DA003362C6 /* iGEM */ = {
+			isa = PBXGroup;
+			children = (
+				9120C6AD1F5859DA003362C6 /* AppDelegate.swift */,
+				9120C6AF1F5859DA003362C6 /* ViewController.swift */,
+				9120C6B11F5859DA003362C6 /* Main.storyboard */,
+				9120C6B41F5859DA003362C6 /* Assets.xcassets */,
+				9120C6B61F5859DA003362C6 /* LaunchScreen.storyboard */,
+				9120C6B91F5859DA003362C6 /* Info.plist */,
+			);
+			path = iGEM;
+			sourceTree = "<group>";
+		};
+		9120C6C11F5859DB003362C6 /* iGEMTests */ = {
+			isa = PBXGroup;
+			children = (
+				9120C6C21F5859DB003362C6 /* iGEMTests.swift */,
+				9120C6C41F5859DB003362C6 /* Info.plist */,
+			);
+			path = iGEMTests;
+			sourceTree = "<group>";
+		};
+		9120C6CC1F5859DB003362C6 /* iGEMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9120C6CD1F5859DB003362C6 /* iGEMUITests.swift */,
+				9120C6CF1F5859DB003362C6 /* Info.plist */,
+			);
+			path = iGEMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9120C6A91F5859DA003362C6 /* iGEM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9120C6D21F5859DB003362C6 /* Build configuration list for PBXNativeTarget "iGEM" */;
+			buildPhases = (
+				9120C6A61F5859DA003362C6 /* Sources */,
+				9120C6A71F5859DA003362C6 /* Frameworks */,
+				9120C6A81F5859DA003362C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iGEM;
+			productName = iGEM;
+			productReference = 9120C6AA1F5859DA003362C6 /* iGEM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9120C6BD1F5859DB003362C6 /* iGEMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9120C6D51F5859DB003362C6 /* Build configuration list for PBXNativeTarget "iGEMTests" */;
+			buildPhases = (
+				9120C6BA1F5859DB003362C6 /* Sources */,
+				9120C6BB1F5859DB003362C6 /* Frameworks */,
+				9120C6BC1F5859DB003362C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9120C6C01F5859DB003362C6 /* PBXTargetDependency */,
+			);
+			name = iGEMTests;
+			productName = iGEMTests;
+			productReference = 9120C6BE1F5859DB003362C6 /* iGEMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9120C6C81F5859DB003362C6 /* iGEMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9120C6D81F5859DB003362C6 /* Build configuration list for PBXNativeTarget "iGEMUITests" */;
+			buildPhases = (
+				9120C6C51F5859DB003362C6 /* Sources */,
+				9120C6C61F5859DB003362C6 /* Frameworks */,
+				9120C6C71F5859DB003362C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9120C6CB1F5859DB003362C6 /* PBXTargetDependency */,
+			);
+			name = iGEMUITests;
+			productName = iGEMUITests;
+			productReference = 9120C6C91F5859DB003362C6 /* iGEMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9120C6A21F5859DA003362C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "UCC iGEM";
+				TargetAttributes = {
+					9120C6A91F5859DA003362C6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = A46G8APEVA;
+						ProvisioningStyle = Automatic;
+					};
+					9120C6BD1F5859DB003362C6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = A46G8APEVA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9120C6A91F5859DA003362C6;
+					};
+					9120C6C81F5859DB003362C6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = A46G8APEVA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9120C6A91F5859DA003362C6;
+					};
+				};
+			};
+			buildConfigurationList = 9120C6A51F5859DA003362C6 /* Build configuration list for PBXProject "iGEM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9120C6A11F5859DA003362C6;
+			productRefGroup = 9120C6AB1F5859DA003362C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9120C6A91F5859DA003362C6 /* iGEM */,
+				9120C6BD1F5859DB003362C6 /* iGEMTests */,
+				9120C6C81F5859DB003362C6 /* iGEMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9120C6A81F5859DA003362C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9120C6B81F5859DA003362C6 /* LaunchScreen.storyboard in Resources */,
+				9120C6B51F5859DA003362C6 /* Assets.xcassets in Resources */,
+				9120C6B31F5859DA003362C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9120C6BC1F5859DB003362C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9120C6C71F5859DB003362C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9120C6A61F5859DA003362C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9120C6B01F5859DA003362C6 /* ViewController.swift in Sources */,
+				9120C6AE1F5859DA003362C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9120C6BA1F5859DB003362C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9120C6C31F5859DB003362C6 /* iGEMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9120C6C51F5859DB003362C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9120C6CE1F5859DB003362C6 /* iGEMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9120C6C01F5859DB003362C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9120C6A91F5859DA003362C6 /* iGEM */;
+			targetProxy = 9120C6BF1F5859DB003362C6 /* PBXContainerItemProxy */;
+		};
+		9120C6CB1F5859DB003362C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9120C6A91F5859DA003362C6 /* iGEM */;
+			targetProxy = 9120C6CA1F5859DB003362C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9120C6B11F5859DA003362C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9120C6B21F5859DA003362C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9120C6B61F5859DA003362C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9120C6B71F5859DA003362C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9120C6D01F5859DB003362C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9120C6D11F5859DB003362C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9120C6D31F5859DB003362C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A46G8APEVA;
+				INFOPLIST_FILE = iGEM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UCC-iGEM.iGEM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9120C6D41F5859DB003362C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A46G8APEVA;
+				INFOPLIST_FILE = iGEM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UCC-iGEM.iGEM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9120C6D61F5859DB003362C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A46G8APEVA;
+				INFOPLIST_FILE = iGEMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UCC-iGEM.iGEMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iGEM.app/iGEM";
+			};
+			name = Debug;
+		};
+		9120C6D71F5859DB003362C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A46G8APEVA;
+				INFOPLIST_FILE = iGEMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UCC-iGEM.iGEMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iGEM.app/iGEM";
+			};
+			name = Release;
+		};
+		9120C6D91F5859DB003362C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A46G8APEVA;
+				INFOPLIST_FILE = iGEMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UCC-iGEM.iGEMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iGEM;
+			};
+			name = Debug;
+		};
+		9120C6DA1F5859DB003362C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A46G8APEVA;
+				INFOPLIST_FILE = iGEMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UCC-iGEM.iGEMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iGEM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9120C6A51F5859DA003362C6 /* Build configuration list for PBXProject "iGEM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9120C6D01F5859DB003362C6 /* Debug */,
+				9120C6D11F5859DB003362C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9120C6D21F5859DB003362C6 /* Build configuration list for PBXNativeTarget "iGEM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9120C6D31F5859DB003362C6 /* Debug */,
+				9120C6D41F5859DB003362C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9120C6D51F5859DB003362C6 /* Build configuration list for PBXNativeTarget "iGEMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9120C6D61F5859DB003362C6 /* Debug */,
+				9120C6D71F5859DB003362C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9120C6D81F5859DB003362C6 /* Build configuration list for PBXNativeTarget "iGEMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9120C6D91F5859DB003362C6 /* Debug */,
+				9120C6DA1F5859DB003362C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9120C6A21F5859DA003362C6 /* Project object */;
+}
