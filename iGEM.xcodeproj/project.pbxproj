@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A16D20741EB152EA7EA765E /* Pods_iGEM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B2EAE46BD76D9B624F1A9F3 /* Pods_iGEM.framework */; };
+		69221525FCD6A25F5158F223 /* Pods_iGEMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7F04610E9E7E23BF526D43 /* Pods_iGEMTests.framework */; };
 		9120C6AE1F5859DA003362C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9120C6AD1F5859DA003362C6 /* AppDelegate.swift */; };
 		9120C6B01F5859DA003362C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9120C6AF1F5859DA003362C6 /* ViewController.swift */; };
 		9120C6B31F5859DA003362C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9120C6B11F5859DA003362C6 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		9120C6B81F5859DA003362C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9120C6B61F5859DA003362C6 /* LaunchScreen.storyboard */; };
 		9120C6C31F5859DB003362C6 /* iGEMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9120C6C21F5859DB003362C6 /* iGEMTests.swift */; };
 		9120C6CE1F5859DB003362C6 /* iGEMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9120C6CD1F5859DB003362C6 /* iGEMUITests.swift */; };
+		AF71951EE20B8C631DD004DB /* Pods_iGEMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276022775F22E4418E58EEFC /* Pods_iGEMUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12828EA6D465DB37F072D1F2 /* Pods-iGEMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iGEMTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iGEMTests/Pods-iGEMTests.release.xcconfig"; sourceTree = "<group>"; };
+		26FB0F17B720C386094CB690 /* Pods-iGEM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iGEM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iGEM/Pods-iGEM.debug.xcconfig"; sourceTree = "<group>"; };
+		276022775F22E4418E58EEFC /* Pods_iGEMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iGEMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B2EAE46BD76D9B624F1A9F3 /* Pods_iGEM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iGEM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7F04610E9E7E23BF526D43 /* Pods_iGEMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iGEMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8769EA9F31F5BCD7F136FDF7 /* Pods-iGEMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iGEMTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iGEMTests/Pods-iGEMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		87F12B6A257764EE71D645C6 /* Pods-iGEMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iGEMUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iGEMUITests/Pods-iGEMUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9120C6AA1F5859DA003362C6 /* iGEM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iGEM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9120C6AD1F5859DA003362C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9120C6AF1F5859DA003362C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		9120C6C91F5859DB003362C6 /* iGEMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iGEMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9120C6CD1F5859DB003362C6 /* iGEMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iGEMUITests.swift; sourceTree = "<group>"; };
 		9120C6CF1F5859DB003362C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A357F3DEBEC6169262859703 /* Pods-iGEMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iGEMUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iGEMUITests/Pods-iGEMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D011F1B8E9B3798FE90E5248 /* Pods-iGEM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iGEM.release.xcconfig"; path = "Pods/Target Support Files/Pods-iGEM/Pods-iGEM.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A16D20741EB152EA7EA765E /* Pods_iGEM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69221525FCD6A25F5158F223 /* Pods_iGEMTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF71951EE20B8C631DD004DB /* Pods_iGEMUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3ADF6579B670B365C7100EAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26FB0F17B720C386094CB690 /* Pods-iGEM.debug.xcconfig */,
+				D011F1B8E9B3798FE90E5248 /* Pods-iGEM.release.xcconfig */,
+				8769EA9F31F5BCD7F136FDF7 /* Pods-iGEMTests.debug.xcconfig */,
+				12828EA6D465DB37F072D1F2 /* Pods-iGEMTests.release.xcconfig */,
+				87F12B6A257764EE71D645C6 /* Pods-iGEMUITests.debug.xcconfig */,
+				A357F3DEBEC6169262859703 /* Pods-iGEMUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		57B55B1C8A6E86873F3F3083 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B2EAE46BD76D9B624F1A9F3 /* Pods_iGEM.framework */,
+				5E7F04610E9E7E23BF526D43 /* Pods_iGEMTests.framework */,
+				276022775F22E4418E58EEFC /* Pods_iGEMUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9120C6A11F5859DA003362C6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				9120C6C11F5859DB003362C6 /* iGEMTests */,
 				9120C6CC1F5859DB003362C6 /* iGEMUITests */,
 				9120C6AB1F5859DA003362C6 /* Products */,
+				3ADF6579B670B365C7100EAB /* Pods */,
+				57B55B1C8A6E86873F3F3083 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9120C6D21F5859DB003362C6 /* Build configuration list for PBXNativeTarget "iGEM" */;
 			buildPhases = (
+				99C760614674C84DD77355B4 /* [CP] Check Pods Manifest.lock */,
 				9120C6A61F5859DA003362C6 /* Sources */,
 				9120C6A71F5859DA003362C6 /* Frameworks */,
 				9120C6A81F5859DA003362C6 /* Resources */,
+				613DED20507020BC3A15BAA2 /* [CP] Embed Pods Frameworks */,
+				69E1EE6CCCA90CAC9D09D335 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9120C6D51F5859DB003362C6 /* Build configuration list for PBXNativeTarget "iGEMTests" */;
 			buildPhases = (
+				4049C87B39773BCC5A2C2AA6 /* [CP] Check Pods Manifest.lock */,
 				9120C6BA1F5859DB003362C6 /* Sources */,
 				9120C6BB1F5859DB003362C6 /* Frameworks */,
 				9120C6BC1F5859DB003362C6 /* Resources */,
+				0BA49641A0BAD8F0EE3058F0 /* [CP] Embed Pods Frameworks */,
+				ABD6988023A94BDAE63D4CD0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9120C6D81F5859DB003362C6 /* Build configuration list for PBXNativeTarget "iGEMUITests" */;
 			buildPhases = (
+				0BE973354821CD9B0D39E4C7 /* [CP] Check Pods Manifest.lock */,
 				9120C6C51F5859DB003362C6 /* Sources */,
 				9120C6C61F5859DB003362C6 /* Frameworks */,
 				9120C6C71F5859DB003362C6 /* Resources */,
+				462DA7012909FC274CCF77B8 /* [CP] Embed Pods Frameworks */,
+				22CCF00CA274A90D73AE995B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BA49641A0BAD8F0EE3058F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iGEMTests/Pods-iGEMTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0BE973354821CD9B0D39E4C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iGEMUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22CCF00CA274A90D73AE995B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iGEMUITests/Pods-iGEMUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4049C87B39773BCC5A2C2AA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iGEMTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		462DA7012909FC274CCF77B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iGEMUITests/Pods-iGEMUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		613DED20507020BC3A15BAA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iGEM/Pods-iGEM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69E1EE6CCCA90CAC9D09D335 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iGEM/Pods-iGEM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99C760614674C84DD77355B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iGEM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABD6988023A94BDAE63D4CD0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iGEMTests/Pods-iGEMTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9120C6A61F5859DA003362C6 /* Sources */ = {
@@ -413,6 +609,7 @@
 		};
 		9120C6D31F5859DB003362C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26FB0F17B720C386094CB690 /* Pods-iGEM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A46G8APEVA;
@@ -426,6 +623,7 @@
 		};
 		9120C6D41F5859DB003362C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D011F1B8E9B3798FE90E5248 /* Pods-iGEM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A46G8APEVA;
@@ -439,6 +637,7 @@
 		};
 		9120C6D61F5859DB003362C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8769EA9F31F5BCD7F136FDF7 /* Pods-iGEMTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +653,7 @@
 		};
 		9120C6D71F5859DB003362C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12828EA6D465DB37F072D1F2 /* Pods-iGEMTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +669,7 @@
 		};
 		9120C6D91F5859DB003362C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87F12B6A257764EE71D645C6 /* Pods-iGEMUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = A46G8APEVA;
@@ -483,6 +684,7 @@
 		};
 		9120C6DA1F5859DB003362C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A357F3DEBEC6169262859703 /* Pods-iGEMUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = A46G8APEVA;

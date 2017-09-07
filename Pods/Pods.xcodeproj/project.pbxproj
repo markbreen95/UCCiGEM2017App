@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D48A9F1072317F76E3C42A5019B970E /* Pods-iGEMTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB85D242CAECEBD007F7F98B6D67D955 /* Pods-iGEMTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AFA9738BD42F760A964EAAC38618B8E /* Pods-iGEMUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A75D2CF6D2131F14B1BE05CBB08B21 /* Pods-iGEMUITests-dummy.m */; };
+		279C5CEFEF2D7608FB1FCBA28B749AE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6C04FFD6EB1E66E4928A725EE61F3C1E /* Pods-iGEM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 692006DCA3A2C195A2F0B63E51E61C77 /* Pods-iGEM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E4F14BC23757F8D73CA3134AB317580 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		ABBE0304C89BD258A8E8F33727C38DC0 /* Pods-iGEMUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 167413CBF3C1DC9D49865BC92DB99786 /* Pods-iGEMUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECEEF94FC58F8779BE01831EB960AEFC /* Pods-iGEMTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8ED2549411F0A4F5B62F79669C82546 /* Pods-iGEMTests-dummy.m */; };
+		F1CD9DC5CCCD018E30CEE9033E6E4D28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F524C8573778967BE8DCA583AF6E0BC8 /* Pods-iGEM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2465E9CACB1DA5F6E9D193000101DE00 /* Pods-iGEM-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		015D86AD513E44115167427F38524EBE /* Pods-iGEMUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iGEMUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		167413CBF3C1DC9D49865BC92DB99786 /* Pods-iGEMUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iGEMUITests-umbrella.h"; sourceTree = "<group>"; };
+		1C183D2B7260D1824F85C7F4E9104D1D /* Pods-iGEM-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iGEM-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1D6D1F8C1E8E066FA9038A0273E5817E /* Pods-iGEM-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iGEM-resources.sh"; sourceTree = "<group>"; };
+		2465E9CACB1DA5F6E9D193000101DE00 /* Pods-iGEM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iGEM-dummy.m"; sourceTree = "<group>"; };
+		2C0659536F67081833CA32F6BC42D53C /* Pods-iGEMUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iGEMUITests-frameworks.sh"; sourceTree = "<group>"; };
+		3A0B743CB6F31E6B93B8E746F7E78780 /* Pods_iGEMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iGEMUITests.framework; path = "Pods-iGEMUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C242D19E58C3E44E7AA825D4778DD09 /* Pods-iGEMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iGEMTests.release.xcconfig"; sourceTree = "<group>"; };
+		3E18E941E54C21DC7AC86625FE1E46C2 /* Pods-iGEMTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iGEMTests-resources.sh"; sourceTree = "<group>"; };
+		46FA3E086F0503DE07829ECAC9166B9E /* Pods-iGEM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iGEM.modulemap"; sourceTree = "<group>"; };
+		4D452469C2E041C5D9253BE57B2A9FA6 /* Pods-iGEMTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iGEMTests.modulemap"; sourceTree = "<group>"; };
+		5463722EF951AEBBC48FE5E36E215B79 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55B50599999F1994F0FDA929636B1542 /* Pods-iGEMTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iGEMTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5BD2CC66B30245084DC0E88A428200AB /* Pods-iGEMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iGEMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		63979783CF4D54A054542B5C418B72C1 /* Pods-iGEMUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iGEMUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		642D97DDD4816290DC581F9D59369B9E /* Pods-iGEMUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iGEMUITests-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		692006DCA3A2C195A2F0B63E51E61C77 /* Pods-iGEM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iGEM-umbrella.h"; sourceTree = "<group>"; };
+		6F3FD5B19162187EA13057D2E8D64B4E /* Pods-iGEM-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iGEM-acknowledgements.plist"; sourceTree = "<group>"; };
+		8669F9E4195AF5729A50821EFB27AF12 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F24BAA78B2C9284A5AB3129AD23414F /* Pods-iGEM-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iGEM-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D8C860875086C1B18F6798E763B9B92 /* Pods_iGEM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iGEM.framework; path = "Pods-iGEM.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0108BB5238AE8E733EFF48E78C4C752 /* Pods-iGEMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iGEMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A2949BA929AFFB0B15F2B508ABE3FB24 /* Pods-iGEMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iGEMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8BFAB8C73B4BC58B6CA221EFE759996 /* Pods-iGEM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iGEM.debug.xcconfig"; sourceTree = "<group>"; };
+		A8ED2549411F0A4F5B62F79669C82546 /* Pods-iGEMTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iGEMTests-dummy.m"; sourceTree = "<group>"; };
+		B3678DAF8E3F4703C85261CBBCB7ECB2 /* Pods-iGEMTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iGEMTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B8A75D2CF6D2131F14B1BE05CBB08B21 /* Pods-iGEMUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iGEMUITests-dummy.m"; sourceTree = "<group>"; };
+		BB85D242CAECEBD007F7F98B6D67D955 /* Pods-iGEMTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iGEMTests-umbrella.h"; sourceTree = "<group>"; };
+		CC2A57E568E036AEFC09040346A4CB35 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D23C0DA4EF1563783AC6EC8CC2CE1F87 /* Pods-iGEMUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iGEMUITests.modulemap"; sourceTree = "<group>"; };
+		E8E9C7C3634302DA2F6A26DA67AD3F7A /* Pods-iGEM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iGEM.release.xcconfig"; sourceTree = "<group>"; };
+		E92AF4042A6071C4AAFF36F2157DD15B /* Pods-iGEMTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iGEMTests-frameworks.sh"; sourceTree = "<group>"; };
+		E9E3883F3563BCD5FDCEF2B5E5F3B0A4 /* Pods_iGEMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iGEMTests.framework; path = "Pods-iGEMTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F47BC70927BC8C2E27E9F2A883D14CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E4F14BC23757F8D73CA3134AB317580 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1BADB8FAB9ABF49B628965C903D1B8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CD9DC5CCCD018E30CEE9033E6E4D28 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4BAC39E12D9CC7906FA11C50A10B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279C5CEFEF2D7608FB1FCBA28B749AE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		172B21D05154F4D08D2CA8D573FFBB99 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30352432FC23463730D789545A4B4141 /* Pods-iGEM */,
+				8619EE0C71862625B3EB958FFE63366B /* Pods-iGEMTests */,
+				27DA591858C8D85E6DE94070FAF26634 /* Pods-iGEMUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		27DA591858C8D85E6DE94070FAF26634 /* Pods-iGEMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC2A57E568E036AEFC09040346A4CB35 /* Info.plist */,
+				D23C0DA4EF1563783AC6EC8CC2CE1F87 /* Pods-iGEMUITests.modulemap */,
+				63979783CF4D54A054542B5C418B72C1 /* Pods-iGEMUITests-acknowledgements.markdown */,
+				015D86AD513E44115167427F38524EBE /* Pods-iGEMUITests-acknowledgements.plist */,
+				B8A75D2CF6D2131F14B1BE05CBB08B21 /* Pods-iGEMUITests-dummy.m */,
+				2C0659536F67081833CA32F6BC42D53C /* Pods-iGEMUITests-frameworks.sh */,
+				642D97DDD4816290DC581F9D59369B9E /* Pods-iGEMUITests-resources.sh */,
+				167413CBF3C1DC9D49865BC92DB99786 /* Pods-iGEMUITests-umbrella.h */,
+				A2949BA929AFFB0B15F2B508ABE3FB24 /* Pods-iGEMUITests.debug.xcconfig */,
+				A0108BB5238AE8E733EFF48E78C4C752 /* Pods-iGEMUITests.release.xcconfig */,
+			);
+			name = "Pods-iGEMUITests";
+			path = "Target Support Files/Pods-iGEMUITests";
+			sourceTree = "<group>";
+		};
+		30352432FC23463730D789545A4B4141 /* Pods-iGEM */ = {
+			isa = PBXGroup;
+			children = (
+				8669F9E4195AF5729A50821EFB27AF12 /* Info.plist */,
+				46FA3E086F0503DE07829ECAC9166B9E /* Pods-iGEM.modulemap */,
+				1C183D2B7260D1824F85C7F4E9104D1D /* Pods-iGEM-acknowledgements.markdown */,
+				6F3FD5B19162187EA13057D2E8D64B4E /* Pods-iGEM-acknowledgements.plist */,
+				2465E9CACB1DA5F6E9D193000101DE00 /* Pods-iGEM-dummy.m */,
+				8F24BAA78B2C9284A5AB3129AD23414F /* Pods-iGEM-frameworks.sh */,
+				1D6D1F8C1E8E066FA9038A0273E5817E /* Pods-iGEM-resources.sh */,
+				692006DCA3A2C195A2F0B63E51E61C77 /* Pods-iGEM-umbrella.h */,
+				A8BFAB8C73B4BC58B6CA221EFE759996 /* Pods-iGEM.debug.xcconfig */,
+				E8E9C7C3634302DA2F6A26DA67AD3F7A /* Pods-iGEM.release.xcconfig */,
+			);
+			name = "Pods-iGEM";
+			path = "Target Support Files/Pods-iGEM";
+			sourceTree = "<group>";
+		};
+		5DC8913857FF0E41AEBD7DDCA464AD02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D8C860875086C1B18F6798E763B9B92 /* Pods_iGEM.framework */,
+				E9E3883F3563BCD5FDCEF2B5E5F3B0A4 /* Pods_iGEMTests.framework */,
+				3A0B743CB6F31E6B93B8E746F7E78780 /* Pods_iGEMUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5DC8913857FF0E41AEBD7DDCA464AD02 /* Products */,
+				172B21D05154F4D08D2CA8D573FFBB99 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8619EE0C71862625B3EB958FFE63366B /* Pods-iGEMTests */ = {
+			isa = PBXGroup;
+			children = (
+				5463722EF951AEBBC48FE5E36E215B79 /* Info.plist */,
+				4D452469C2E041C5D9253BE57B2A9FA6 /* Pods-iGEMTests.modulemap */,
+				B3678DAF8E3F4703C85261CBBCB7ECB2 /* Pods-iGEMTests-acknowledgements.markdown */,
+				55B50599999F1994F0FDA929636B1542 /* Pods-iGEMTests-acknowledgements.plist */,
+				A8ED2549411F0A4F5B62F79669C82546 /* Pods-iGEMTests-dummy.m */,
+				E92AF4042A6071C4AAFF36F2157DD15B /* Pods-iGEMTests-frameworks.sh */,
+				3E18E941E54C21DC7AC86625FE1E46C2 /* Pods-iGEMTests-resources.sh */,
+				BB85D242CAECEBD007F7F98B6D67D955 /* Pods-iGEMTests-umbrella.h */,
+				5BD2CC66B30245084DC0E88A428200AB /* Pods-iGEMTests.debug.xcconfig */,
+				3C242D19E58C3E44E7AA825D4778DD09 /* Pods-iGEMTests.release.xcconfig */,
+			);
+			name = "Pods-iGEMTests";
+			path = "Target Support Files/Pods-iGEMTests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B3A1A8CF7892B84E6AFA8E28E1E29E31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D48A9F1072317F76E3C42A5019B970E /* Pods-iGEMTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9AE77CE77E83B2424FB7D5924F7338 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C04FFD6EB1E66E4928A725EE61F3C1E /* Pods-iGEM-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1D05CDEE6C135F3E60B88D48AEDC49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBE0304C89BD258A8E8F33727C38DC0 /* Pods-iGEMUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		031E8FEF20CA9BF3AE277918F3F6990F /* Pods-iGEM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67DAB7FCDE7EDA5A66DE859E4A9A1708 /* Build configuration list for PBXNativeTarget "Pods-iGEM" */;
+			buildPhases = (
+				21A7EE44C6DA596DB7A2328F40C37C88 /* Sources */,
+				9F47BC70927BC8C2E27E9F2A883D14CB /* Frameworks */,
+				DA9AE77CE77E83B2424FB7D5924F7338 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-iGEM";
+			productName = "Pods-iGEM";
+			productReference = 9D8C860875086C1B18F6798E763B9B92 /* Pods_iGEM.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		322340973231E84E68E52D22DBF30D0C /* Pods-iGEMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01AE283AF05431CF79593D6E2CD7AE0B /* Build configuration list for PBXNativeTarget "Pods-iGEMUITests" */;
+			buildPhases = (
+				FA8F9E275E3E737E1DE1548413FE6005 /* Sources */,
+				CD4BAC39E12D9CC7906FA11C50A10B31 /* Frameworks */,
+				ED1D05CDEE6C135F3E60B88D48AEDC49 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-iGEMUITests";
+			productName = "Pods-iGEMUITests";
+			productReference = 3A0B743CB6F31E6B93B8E746F7E78780 /* Pods_iGEMUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9FD884C79C53E9B7D632A25196960DAE /* Pods-iGEMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AEDA55F17A7F975458902F74579404E /* Build configuration list for PBXNativeTarget "Pods-iGEMTests" */;
+			buildPhases = (
+				CDEE0B60EF7E85D94B022E814D49BE04 /* Sources */,
+				A1BADB8FAB9ABF49B628965C903D1B8B /* Frameworks */,
+				B3A1A8CF7892B84E6AFA8E28E1E29E31 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-iGEMTests";
+			productName = "Pods-iGEMTests";
+			productReference = E9E3883F3563BCD5FDCEF2B5E5F3B0A4 /* Pods_iGEMTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5DC8913857FF0E41AEBD7DDCA464AD02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				031E8FEF20CA9BF3AE277918F3F6990F /* Pods-iGEM */,
+				9FD884C79C53E9B7D632A25196960DAE /* Pods-iGEMTests */,
+				322340973231E84E68E52D22DBF30D0C /* Pods-iGEMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21A7EE44C6DA596DB7A2328F40C37C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F524C8573778967BE8DCA583AF6E0BC8 /* Pods-iGEM-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDEE0B60EF7E85D94B022E814D49BE04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEEF94FC58F8779BE01831EB960AEFC /* Pods-iGEMTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8F9E275E3E737E1DE1548413FE6005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFA9738BD42F760A964EAAC38618B8E /* Pods-iGEMUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2D55374D3CB7DA342FF23E78500A0C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8E9C7C3634302DA2F6A26DA67AD3F7A /* Pods-iGEM.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iGEM/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iGEM/Pods-iGEM.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iGEM;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2FDBC0F122BB9FBCE778B8038D3E82FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8BFAB8C73B4BC58B6CA221EFE759996 /* Pods-iGEM.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iGEM/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iGEM/Pods-iGEM.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iGEM;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D8CA2C55757656CCCD5F82217920264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0108BB5238AE8E733EFF48E78C4C752 /* Pods-iGEMUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iGEMUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iGEMUITests/Pods-iGEMUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iGEMUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		80C8872A55071169C8A402CCE6A8CA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C242D19E58C3E44E7AA825D4778DD09 /* Pods-iGEMTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iGEMTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iGEMTests/Pods-iGEMTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iGEMTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A6D0BAB7185C7F2C3FA795F0F05283EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2949BA929AFFB0B15F2B508ABE3FB24 /* Pods-iGEMUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iGEMUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iGEMUITests/Pods-iGEMUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iGEMUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8A57A80B925407533E7D0910710F5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BD2CC66B30245084DC0E88A428200AB /* Pods-iGEMTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iGEMTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iGEMTests/Pods-iGEMTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iGEMTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C03B8870130C98D1B02B59D003687524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01AE283AF05431CF79593D6E2CD7AE0B /* Build configuration list for PBXNativeTarget "Pods-iGEMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D0BAB7185C7F2C3FA795F0F05283EE /* Debug */,
+				5D8CA2C55757656CCCD5F82217920264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AEDA55F17A7F975458902F74579404E /* Build configuration list for PBXNativeTarget "Pods-iGEMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8A57A80B925407533E7D0910710F5EF /* Debug */,
+				80C8872A55071169C8A402CCE6A8CA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */,
+				C03B8870130C98D1B02B59D003687524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67DAB7FCDE7EDA5A66DE859E4A9A1708 /* Build configuration list for PBXNativeTarget "Pods-iGEM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FDBC0F122BB9FBCE778B8038D3E82FD /* Debug */,
+				2D55374D3CB7DA342FF23E78500A0C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
